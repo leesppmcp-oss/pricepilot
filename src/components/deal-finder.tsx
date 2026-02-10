@@ -40,7 +40,8 @@ export function DealFinder({ productName, websiteName }: DealFinderProps) {
       });
       setIsOpen(false);
     } else {
-      setDeals(result.deals);
+      //setDeals(result.deals);
+      setIsOpen(false);
     }
     
     setIsLoading(false);
